@@ -1,12 +1,71 @@
 <!DOCTYPE html>
  <html lang="en">
   <head>
-    <title>personal information</title>
-   </head>
-  <body>
-      <h1> About me</h1>
-      <p>Helle!,I'm Feyishayo Akande and i'm an IT support person.i deploy and support of post deployment of productivity suite.</p>
-      <p> i love to organise things and keep things together</p>
-      <img> src="images/jj.jpg">
-  </body>  
- </html>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Personal Portfolio">
+    <title>My Portfolio</title>
+    <body></body>
+
+    <!-- Header Section -->
+    <header>
+      <h1>Feyishayo Akande</h1>
+      <p>I'm an IT support and an aspiring Software engineer</p>
+  </header>
+
+  <!-- Navigation section -->
+  <nav>
+      <a href="#about Me">About Me</a>
+      <a href="#projects">Project</a>
+      <a href="#contact">contact</a>
+</nav>
+<!-- Main Content Section -->
+ <main>
+  <!-- About Me Section -->
+   <Section id="About">
+    <h2>About Me</h2>
+    <div>
+      <img src="Images/jj.jpg"> alt="lovely picture of me"width="100" height="100"> 
+      <p>Hello! I'm an experienced IT Support Professional. i love assisting clients in overcoming technological challenges and finding out about new tags as an aspiring Software engineer</p>
+    </div>
+   </Section>
+
+   <!-- Project Section -->
+    <section id="project">
+      <h2>Project</h2>
+      <div class="Content wrapper">
+      <div class="project">
+      <ul>
+        <li>
+          <h3> First project:Project phoenix</h3>
+          <p>A Shoprite project that had Shoprite Nigeria transitioning from SAP ERP to Microsoft dynamics</p>
+        </li>
+        <li>
+          <h3>Second Project: Website Development</h3>
+          <p>I worked on a website built with elementor. I had a bit of challenges while working on this project but it was a learning process for me and i was able to complete it at the end.</p>
+        </li>
+      </ul>
+    </section>
+
+<!-- contact Section -->
+ <section id="Contact">
+  <h2>Contact</h2>
+  <form action="submit_form.php" method="post">
+    <label for="name">Name:</label><br>
+    <input type="text" name="text" id="Name" required><br><br>
+
+    <label for="email">Email:</label><br>
+    <input type="email" id="email"name="email" required><br><br>
+
+    <label for="message">Message:</label><br>
+    <textarea id="message" name="message" rows="4" required></textarea><br<br>
+
+    <button type="submit">Send Message</button>
+</form>
+ </section>
+ </main>
+
+ <!-- Footer Section -->
+  <footer>
+ <p>Copyright © 2024 Feyishayo. All Rights Reserved.</p>
+ </footer>
